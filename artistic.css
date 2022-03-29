@@ -1,0 +1,15 @@
+body {
+    background-color: #F08080;
+}
+
+h1{
+    font-family:'Alex Brush';
+    font-size: 70px;
+    text-align: right;
+    color: aliceblue;
+}
+
+p {
+    font-family:'Satisfy';
+    font-size: 28px;
+}
