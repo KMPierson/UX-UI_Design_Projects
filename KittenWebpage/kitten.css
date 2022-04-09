@@ -1,0 +1,48 @@
+body {
+    background-color: #fbe698;
+}
+
+h1 {
+    font-family: 'Alex Brush';
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+}
+
+.container {
+    background-color: #f9bdc0;
+    width:100%;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    border-radius: 8px;
+    margin-left: 500px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    text-align: center;
+}
+
+button {
+    margin-left: 700px;
+    border-radius: 6px;
+    background-color: #6DECE0;
+    color:gray;
+    position:relative;
+    height: 50px;
+    width: 100px;
+}
+
+button:hover {
+    color:antiquewhite;
+}
+
+button:focus {
+    background-color: #15b5b0;
+    color:black;
+}
