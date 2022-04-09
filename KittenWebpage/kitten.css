@@ -46,3 +46,7 @@ button:focus {
     background-color: #15b5b0;
     color:black;
 }
+
+footer {
+    text-align: center;
+}
