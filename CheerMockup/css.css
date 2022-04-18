@@ -1,0 +1,58 @@
+body {
+    background-color: #ff6501;
+    font-family: 'Arimo';
+    font-size: 22px;
+    color:#2d2834;
+}
+
+h1 {
+    font-family: 'Almendra SC';
+    font-size: 22px;
+    color:#2d2834;
+    text-align: center;
+}
+
+.navbar {
+    width:100%;
+    position: fixed;
+    background-color: #e1d7d7;
+    color:#2d2834;
+}
+
+.logo {
+    align-content: center;
+    background-color: #ff6501;
+    margin-left: 500px;
+    padding-bottom: 50px;
+}
+
+.logoContainer {
+    background-color: #ff6501;
+}
+
+img {
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.gallery {
+    background-color: #ff6501;
+    width:100%;
+    height: 500px;
+    border: solid #2d2834;
+    border-radius: 8px;
+}
+
+.schedule {
+    background-color: #ff6501;
+    color: #2d2834;
+    border:solid #2d2834;
+}
+ 
+.compInfo {
+    background-color: #ff6501;
+    text-align: left;
+    padding: 15px;
+    font-family: "Arimo";
+}
