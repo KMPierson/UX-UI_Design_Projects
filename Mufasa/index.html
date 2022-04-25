@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <a onclick="document.getElementById('sound').play();">
+        <img src="Mufasa.jpg" alt="Lion">
+        </a>
+        <script>
+            function play(){
+                var audio=document.getElementById("sound");
+                    audio.play();
+            }
+        </script>
+        <audio id="sound"><source src="mufasa.wav" type="audio/WAV"></audio>
+    </body>
+</html>

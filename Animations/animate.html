@@ -16,6 +16,15 @@
         <div class="words">
            <p>This is also animated.</p>
         </div>
+        <br>
+        <script>
+            function play() {
+                var audio = document.getElementById("sound");
+                    audio.play();
+            }
+        </script>
+        <audio id="sound"><source src="onclicksound.wav" type="audio/WAV"></audio>
+        <button onclick="play()" type="button">Click here for sound</button>
 
     </body>
 </html>
