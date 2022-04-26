@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="canyon.css">
+        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+        <script src="canyon.js"></script>
+    </head>
+    <body>
+        <!---Main IMage--->
+        <div>
+            <div  class="rotate-vert-center">
+                <h1>Visit The Grand Canyon!</h1>
+            </div>
+        
+            <div class="quote">
+                <q>"Leave it as is. You cannot improve on it. <br>The ages have been at work, and man can only mar it."<br> -Theodore Roosevelt</q>
+            </div>
+            <div class="noise">
+               <audio id="sound"><source src="bird.wav" type="audio/WAV"></audio>
+               <button onclick="play()" type="button"> Click Me</button>
+            </div>
+        <div class="top">
+        <img src="images/david-lusvardi-nuwkHZT0BoU-unsplash.jpg" alt="within the Grand Canyon">
+        </div>
+        </div>
+
+        <!--Columns pics/facts-->
+        <div class="column_2">
+            <p>The Grand Canyon is bigger than the state of Rhode Island. It is home to six indigenius<br> tribes; the Hualapai, the Havasupai,
+                the Navajo, the Hopi, the Paiute, and the Zuni.
+            </p>
+        </div>
+        <div class="column_1">
+            <img src="images/maria-moresco-Wzxs0jF2lp0-unsplash.jpg">
+        </div>
+        <div class="column_1">
+            <p>The Grand Canyon was carved six million years ago by the Colorado River. It is the most<br> studied landscape
+                due to its extensive fossil records and rich archeological history.
+            </p>
+        </div>
+        <div class="column_2">
+            <img src="images/tomas-mata-pX3tZTzAsEQ-unsplash.jpg">
+        </div>
+        <div class="column_2">
+            <p>The Skywalk is the most famous landmark in the Grand Canyon. It is managed by the<br> Hualapai tribe and sits
+                on tribal land. It stretches out 70ft from the canyon rim.
+            </p>
+        </div>
+        <div class="column_1">
+            <img src="images/stan-lawrimore-n-lbv4BHk1I-unsplash.jpg">
+        </div>
+
+        <div id="Contact">
+            <button onclick="openForm()" class="Pop_Up_Button">Book a Tour</button>
+            <div class="form-popup" id="myForm">
+                <form action="https://formspree.io/info@learncodinganywhere.com" method="post" class="form-container">
+                <h1>Book a Tour!</h1>
+                    <label for="name"><b>Name</b></label>
+                        <input type="text" placeholder="Please enter your name" name="name" required>
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="text" placeholder="Your phone number here" name="phone">
+                    <label for="email"><b>Email</b></label>
+                        <input type="text" name="email" placeholder="Please enter your email" required>
+                    <label for="message"><b>Date of Visit</b></label>
+                        <input type="text" name="message" placeholder="Please request a date.">
+                    
+                    <button type="submit" class="btn">BOOK</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                </form>
+
+            </div>
+        </div
+    </body>
+</html>
